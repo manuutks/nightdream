@@ -100,6 +100,26 @@ def cadastro():
         print("==================================================\n\n", file=sys.stderr)
         return jsonify({"status": "erro", "mensagem": f"Erro no servidor: {str(e)}"}), 500
 
+# -------------------------------
+# ROTAS DAS PÁGINAS HTML
+# -------------------------------
+
+@app.route("/")
+def index_page():
+    return render_template("index.html")
+
+@app.route("/cad")
+def cad_page():
+    return render_template("cad.html")
+
+@app.route("/login")
+def login_page():
+    return render_template("login.html")
+
+@app.route("/detail")
+def detail_page():
+    return render_template("detail.html")
+
 
 # -------------------------------
 # ▶ ROTA DA PÁGINA INICIAL (HTML)
