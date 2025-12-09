@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Magic Food</title>
+    <link rel="icon" type="image/png" href="static/images/miniiconpg.png">
+    <link rel="stylesheet" href="static/styles/scad.css">
+</head>
+<body>
+
+    <article>
+        <!-- FORMULÁRIO 1 -->
+        <form id="cadform">
+            <h2>Cadastro</h2>
+
+            <p>Nome Completo</p>
+            <input type="text" id="nome_completo" name="nome_completo" placeholder="Seu nome completo" required>
+
+            <p>Data de Nascimento</p>
+            <input type="date" id="data_nascimento" name="data_nascimento" required>
+
+            <p>E-mail</p>
+            <input type="email" id="email" name="email" placeholder="exemplo@gmail.com" required>
+
+            <p>Número de Telefone</p>
+            <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required>
+
+            <button type="button" id="submitBtn">Prosseguir</button>
+
+            <p id="message"></p>
+        </form>
+
+        <!-- FORMULÁRIO 2 -->
+        <form id="cadflutu">
+            <h2>Endereço</h2>
+
+            <p>CEP</p>
+            <input type="text" id="cep" name="cep" placeholder="00000-000" required>
+
+            <p>Bairro</p>
+            <input type="text" id="bairro" name="bairro" placeholder="Seu bairro" required>
+
+            <p>Endereço</p>
+            <input type="text" id="endereco" name="endereco" placeholder="Rua, número, complemento" required>
+
+            <p>Senha</p>
+            <input type="password" id="senha" name="senha" placeholder="Crie uma senha" required>
+
+            <button type="submit" id="submitBtn1">
+                Cadastrar
+            </button>
+            <button type="button" id="submitBtn2">Voltar</button>
+
+            <p id="message2"></p>
+        </form>
+    </article>
+
+    <p class="login">
+        Já tem uma conta? <a href="login.html">Fazer login</a>
+    </p>
+
+    <script src="static/scripts/scad.js"></script>
+</body>
+</html>

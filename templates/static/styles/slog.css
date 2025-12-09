@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+
+#Loginform {
+  width: 400px;
+  margin: 50px auto;
+  margin-top: 170px;
+  height: 500px;
+  padding: 30px;
+  background: #e4d4c6;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  font-family: 'Arial', sans-serif;
+}
+
+#Loginform h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #e4d4c6;
+    background: #b89a84;
+    border-radius: 25px;
+    padding: 10px;
+    width: 70%;
+    margin-left: 45px;
+}
+
+p {
+    margin-top: 50px;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #8b6549;
+}
+
+#Loginform input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #efe7e0;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+#Loginform input:focus {
+  border-color: #8b6549;
+  box-shadow: 0 0 5px rgba(159, 115, 89, 0.5);
+}
+
+#Loginform button {
+  width: 60%;
+  padding: 12px;
+  background: #b89a84;
+  color: #fff;
+  margin-top: 50px;
+  margin-left: 60px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#Loginform button:hover {
+  background: #8f7664;
+  box-shadow: 0 5px 10px rgba(149, 120, 99, 0.907);
+}
+
+#Loginform .message {
+  text-align: center;
+  margin-top: 15px;
+  color: #555;
+}
+
+#Loginform .message a {
+  color: #6c63ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#Loginform .message a:hover {
+  text-decoration: underline;
+}
+
+
+.cadastro {
+    text-align: center;
+    margin-top: 5px;
+    color: #555;
+}
+
+.cadastro a {
+    color: #8f7664;
+    font-weight: bold;
+}

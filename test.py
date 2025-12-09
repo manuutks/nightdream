@@ -1,0 +1,1 @@
+print("Funcionou! test.py está rodando!")

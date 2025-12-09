@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cadastro-container {
+    position: relative;
+    width: 400px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+/* Tela principal */
+.cadastro-main {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+/* Tela flutuante */
+.tela-flutuante {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+
+    padding: 20px;
+    border: 1px solid #ccc;
+
+    transform: translateX(100%); /* COMEÇA FORA DA TELA */
+    transition: transform 0.4s ease;
+}
+
+/* Quando ativa, entra na tela */
+.tela-flutuante.active {
+    transform: translateX(0);
+}
