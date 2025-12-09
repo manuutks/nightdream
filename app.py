@@ -4,7 +4,7 @@ import psycopg2
 print("=== INICIANDO BACKEND ===")
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="static", template_folder="templates")
 CORS(app, supports_credentials=True)
 
 # -------------------------------

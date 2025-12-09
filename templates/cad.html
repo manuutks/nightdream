@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Magic Food</title>
-    <link rel="icon" type="image/png" href="static/images/miniiconpg.png">
-    <link rel="stylesheet" href="static/styles/scad.css">
+    <link rel="icon" href="{{ url_for('static', filename='images/miniiconpg.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/scad.css') }}">
 </head>
 <body>
 
@@ -60,6 +60,7 @@
         Já tem uma conta? <a href="login.html">Fazer login</a>
     </p>
 
-    <script src="static/scripts/scad.js"></script>
+<script src="{{ url_for('static', filename='scripts/scad.js') }}"></script>
+
 </body>
 </html>

@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+
+#cadform {
+  width: 400px;
+  margin: 50px auto;
+  margin-top: -30px;
+  height: 700px;
+  padding: 30px;
+  background: #e4d4c6;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  font-family: 'Arial', sans-serif;
+}
+
+#cadform h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #e4d4c6;
+    background: #b89a84;
+    border-radius: 25px;
+    padding: 10px;
+    width: 70%;
+    margin-left: 45px;
+}
+
+p {
+    margin-top: 50px;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #8b6549;
+}
+
+#cadform input {
+  width: 100%;
+  padding: 12px 15px;
+;
+  border: 1px solid #efe7e0;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+#cadform input:focus {
+  border-color: #8b6549;
+  box-shadow: 0 0 5px rgba(159, 115, 89, 0.5);
+}
+
+#submitBtn {
+  width: 60%;
+  padding: 12px;
+  background: #b89a84;
+  color: #fff;
+  margin-top: 50px;
+  margin-left: 60px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#cadform button:hover {
+  background: #8f7664;
+  box-shadow: 0 5px 10px rgba(149, 120, 99, 0.907);
+}
+
+#cadform .message {
+  text-align: center;
+  margin-top: 15px;
+  color: #555;
+}
+
+#cadform .message a {
+  color: #6c63ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#cadform .message a:hover {
+  text-decoration: underline;
+}
+
+.login {
+    text-align: center;
+    margin-top: 5px;
+    color: #555;
+}
+
+.login a {
+    color: #8f7664;
+    font-weight: bold;
+}
+
+article {
+    position: relative;
+    width: 600px;
+    max-width: 900px; 
+    margin: 20px auto;
+    padding: 30px;
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    overflow: hidden; /* NÃO CORTA AS TELAS */
+    height: auto;
+}
+
+#cadflutu {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 400px;
+    height: 700px;
+
+    padding: 20px;
+
+    transform: translateX(200%); /* COMEÇA FORA DA TELA */
+    transition: transform 0.4s ease;
+
+    background: #e4d4c6;
+    border-radius: 15px;
+    font-family: 'Arial', sans-serif;
+}
+
+#cadflutu h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #e4d4c6;
+    background: #b89a84;
+    border-radius: 25px;
+    padding: 10px;
+    width: 70%;
+    margin-left: 45px;
+}
+
+p {
+    margin-top: 50px;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #8b6549;
+}
+
+#cadflutu input {
+  width: 100%;
+  padding: 12px 15px;
+;
+  border: 1px solid #efe7e0;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+#cadflutu input:focus {
+  border-color: #8b6549;
+  box-shadow: 0 0 5px rgba(159, 115, 89, 0.5);
+}
+
+#cadflutu button {
+  width: 60%;
+  padding: 12px;
+  background: #b89a84;
+  color: #fff;
+  margin-top: 50px;
+  margin-left: 60px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#cadflutu button:hover {
+  background: #8f7664;
+  box-shadow: 0 5px 10px rgba(149, 120, 99, 0.907);
+}
+
+#cadflutu .message {
+  text-align: center;
+  margin-top: 15px;
+  color: #555;
+}
+
+#cadflutu .message a {
+  color: #6c63ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#cadflutu .message a:hover {
+  text-decoration: underline;
+}
+
+.login {
+    text-align: center;
+    margin-top: 0px;
+    color: #555;
+}
+
+.login a {
+    color: #8f7664;
+    font-weight: bold;
+}
+
+#cadflutu.show {
+    transform: translateX(100px); 
+}
+
+#cadflutu #submitBtn1 {
+    width: 60%;
+    padding: 12px;
+    background: #b89a84;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 60px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#cadflutu #submitBtn2 {
+    width: 60%;
+    padding: 12px;
+    background: #b89a84;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 60px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}

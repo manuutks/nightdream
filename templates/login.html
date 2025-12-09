@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Magic Food</title>
-    <link rel="icon" type="image/png" href="static/images/miniiconpg.png">
-    <link rel="stylesheet" href="static/styles/slog.css">
+    <link rel="icon" href="{{ url_for('static', filename='images/miniiconpg.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/slog.css') }}">
 </head>
 <body>
     <article>
@@ -26,6 +26,6 @@
     <p class="cadastro">
         Ainda não tem conta? <a href="cad.html">Criar conta</a>
     </p>
-    <script src="static/scripts/slog.js"></script>
+    <script src="{{ url_for('static', filename='scripts/slog.js') }}"></script>
 </body>
 </html>
